@@ -1,4 +1,5 @@
 # BodyNet2Brain
+![Conceptual Framework](banner.png)
 Mapping representations in the visual cortex with body-parsing neural networks
 
 The purpose of this study is to unravel representations in visual cortical regions with body-parsing neural networks (i.e., pose estimation and body segmentation models). Specifically, it aims to:
