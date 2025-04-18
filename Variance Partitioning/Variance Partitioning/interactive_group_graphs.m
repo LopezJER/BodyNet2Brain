@@ -24,7 +24,7 @@ end
 %% --- COMMON CONFIGURATION ---
 subjects = 1:8;
 nSubjects = numel(subjects);
-dataPathFormat = 'D:\\ML_project\\Variance\\var_excel\\updated_sanitized_allmodels\\subject_%d_variance_partitioning.xlsx';
+dataPathFormat = 'D:\\ML_project\\Variance\\var_excel\\sapiens\\lowercase_excels\\subject_%d_variance_partitioning.xlsx';
 
 % Fixed colors
 brightGreen  = [0, 0.8, 0];

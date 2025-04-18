@@ -11,7 +11,7 @@ tic;  % Start timer
 clear; clc;
 
 %% Configuration
-inputFolder = 'D:\ML_project\Variance\var_excel\updated_sanitized_allmodels\collapsed_randoms';  % Set your folder path
+inputFolder = 'D:\ML_project\Variance\var_excel\sapiens_allmodels';  % Set your folder path
 
 % Get list of all Excel files in the folder.
 files = dir(fullfile(inputFolder, '*.xlsx'));
@@ -104,7 +104,7 @@ for j = 1:length(numericVars)
 end
 
 %% Write Output Table to Excel
-outputFile = fullfile(inputFolder, 'Aggregated_ROI_Results.xlsx');
+outputFile = fullfile(inputFolder, 'Aggregated_ROI_Results_updated.xlsx');
 writetable(resultTable, outputFile);
 fprintf('Aggregated results saved to %s\n', outputFile);
 

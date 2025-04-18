@@ -12,7 +12,7 @@ clear; clc;
 
 %% Configuration
 % Set the subject number (change this to process a different subject)
-subject = 8;
+subject = 1;
 
 % Define list of ROIs and laterality options
 rois = {'EBA', 'FBA_1', 'FBA_2', 'FFA_1', 'FFA_2', 'hV4', 'MTL', 'OFA', ...
@@ -21,7 +21,7 @@ laterality_options = {'r', 'l'};  % 'r' for right, 'l' for left
 
 % Define base directories for brain data and DNN data (pose and seg)
 brain_base = sprintf('D:\\ML_project\\Variance\\brain_results\\subject_%d', subject);
-dnn_base   = sprintf('D:\\ML_project\\Variance\\sanitized\\results_all\\subject_%d', subject);
+dnn_base   = sprintf('D:\\ML_project\\Variance\\sapiens_results\\subject_%d', subject);
 
 % Prepare output results cell array with header row.
 results = {};

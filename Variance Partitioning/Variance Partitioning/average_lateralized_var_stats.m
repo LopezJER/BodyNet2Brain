@@ -6,7 +6,7 @@
 %   - Creates one column per subject (e.g. Sub_1, Sub_2, ...) with a 1/0 indicator.
 
 %% Configuration
-inputFolder = 'D:\ML_project\Variance\var_excel\updated_sanitized_allmodels\collapsed_randoms';  % <-- Set this to your folder
+inputFolder = 'D:\ML_project\Variance\var_excel\sapiens';  % <-- Set this to your folder
 
 % Get list of all Excel files in the folder.
 files = dir(fullfile(inputFolder, '*.xlsx'));

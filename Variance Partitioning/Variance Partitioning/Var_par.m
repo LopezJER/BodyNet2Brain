@@ -33,8 +33,8 @@ brain_region_name = sprintf('%s %s', laterality_cap, brain_region);
 
 % Base directories:
 base_dir = 'D:\ML_project\Variance';
-dnn_base = fullfile(base_dir, 'dnn', 'subject_1');
-brain_base = fullfile(base_dir, 'brain', 'subject_1');
+dnn_base = fullfile(base_dir, 'sapiens_results', 'subject_1');
+brain_base = fullfile(base_dir, 'brain_results', 'subject_1');
 
 % Dynamically construct file paths:
 % Training file paths:
