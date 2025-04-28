@@ -7,7 +7,7 @@ The purpose of this study is to unravel representations in visual cortical regio
 1. Perform Representational Similarity Analysis (RSA) between neural networks and visual cortical regions.
 2. Conduct variance partitioning to determine the contributions of each neural network model to explaining the variance in the neural responses in visual cortical regions.
 
-**The neural network models we based our analysis on were from Sapiens (Khirodkar et al, 2025). We relied upon and slightly modified the [Sapiens source code](https://github.com/facebookresearch/sapiens) to derive neural network responses to body images at inference.**
+**The neural network models we based our analysis on were from Sapiens (Khirodkar et al, 2025). We relied upon and slightly modified the [Sapiens source code](https://github.com/facebookresearch/sapiens) by Khirodkar et al., 2025 to derive neural network responses to body images at inference.**
 
 # Analysis Results
 To replicate our analysis results, you may simply run the corresponding notebooks under 'analyses'. As the notebook assumes you have certain files (e.g., preprocessed RDMs, image_indices), you can create a shortcut to our ['ML Project' folder assets](https://drive.google.com/drive/folders/1uMF26zAsWn0lrr61fyStb5PX_yv_S96f?usp=drive_link) containing thesee files in your Google Drive and mount your drive on Colab. If you'd rather get the RDMs from scratch, please follow the preprocessing pipeline described in the next section.
