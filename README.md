@@ -7,7 +7,7 @@ The purpose of this study is to unravel representations in visual cortical regio
 1. Perform Representational Similarity Analysis (RSA) between neural networks and visual cortical regions.
 2. Conduct variance partitioning to determine the contributions of each neural network model to explaining the variance in the neural responses in visual cortical regions.
 
-**The neural network models we based our analysis on were from Sapiens (Khirodkar et al, 2025). We relied upon and slightly modified their [source code](https://github.com/facebookresearch/sapiens) to derive neural network responses to body images at inference.**
+**The neural network models we based our analysis on were from Sapiens (Khirodkar et al, 2025). We relied upon and slightly modified the [Sapiens source code](https://github.com/facebookresearch/sapiens) to derive neural network responses to body images at inference.**
 
 # Analysis Results
 To replicate our analysis results, you may simply run the corresponding notebooks under 'analyses'. As the notebook assumes you have certain files (e.g., preprocessed RDMs, image_indices), you can create a shortcut to our ['ML Project' folder assets](https://drive.google.com/drive/folders/1uMF26zAsWn0lrr61fyStb5PX_yv_S96f?usp=drive_link) containing thesee files in your Google Drive and mount your drive on Colab. If you'd rather get the RDMs from scratch, please follow the preprocessing pipeline described in the next section.
@@ -26,3 +26,9 @@ Beta extraction:
 Once extracting both ROIs and trials in which body images were shown for every subject, run batchProcessBetas to create excels of activations in each voxel of a given ROI for a chosen subject. 
 Then, run formatExcel to transpose the data and dot multiply to correct for real beta values. 
 Finally, batchExcelRDMs can be run to create RDMs in spreadsheets and visual graphs from the formatted excel spreadsheets.
+
+References:
+
+Khirodkar, R., Bagautdinov, T., Martinez, J., Zhaoen, S., James, A., Selednik, P., Anderson, S., & Saito, S.
+(2025). Sapiens: Foundation for human vision models. In Proceedings of the European
+Conference on Computer Vision (ECCV).
